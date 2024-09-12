@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/yu/codefield/spdlog_fold_sink/build",
+  "command": "/usr/bin/c++ -DFMT_LOCALE -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/yu/codefield/spdlog_fold_sink/include -g -std=gnu++11 -o CMakeFiles/spdlog_fold_sink.dir/src/main.cpp.o -c /home/yu/codefield/spdlog_fold_sink/src/main.cpp",
+  "file": "/home/yu/codefield/spdlog_fold_sink/src/main.cpp"
+}
+]

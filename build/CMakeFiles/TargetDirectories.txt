@@ -1,0 +1,3 @@
+/home/yu/codefield/spdlog_fold_sink/build/CMakeFiles/spdlog_fold_sink.dir
+/home/yu/codefield/spdlog_fold_sink/build/CMakeFiles/edit_cache.dir
+/home/yu/codefield/spdlog_fold_sink/build/CMakeFiles/rebuild_cache.dir
