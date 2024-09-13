@@ -151,13 +151,14 @@ CMakeFiles/spdlog_fold_sink.dir/src/main.cpp.o: \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
  /usr/include/c++/11/bits/std_mutex.h \
- /usr/include/c++/11/bits/unique_lock.h /usr/include/spdlog/logger.h \
- /usr/include/spdlog/common.h /usr/include/spdlog/tweakme.h \
+ /usr/include/c++/11/bits/unique_lock.h \
+ /usr/include/spdlog/details/console_globals.h \
  /usr/include/spdlog/details/null_mutex.h /usr/include/c++/11/atomic \
- /usr/include/c++/11/functional /usr/include/c++/11/bits/std_function.h \
- /usr/include/spdlog/fmt/fmt.h /usr/include/fmt/core.h \
- /usr/include/c++/11/cstddef /usr/include/c++/11/cstring \
- /usr/include/string.h /usr/include/strings.h \
+ /usr/include/spdlog/logger.h /usr/include/spdlog/common.h \
+ /usr/include/spdlog/tweakme.h /usr/include/c++/11/functional \
+ /usr/include/c++/11/bits/std_function.h /usr/include/spdlog/fmt/fmt.h \
+ /usr/include/fmt/core.h /usr/include/c++/11/cstddef \
+ /usr/include/c++/11/cstring /usr/include/string.h /usr/include/strings.h \
  /usr/include/c++/11/iterator /usr/include/c++/11/bits/stream_iterator.h \
  /usr/include/c++/11/bits/streambuf_iterator.h \
  /usr/include/c++/11/streambuf /usr/include/c++/11/bits/ios_base.h \
@@ -199,6 +200,7 @@ CMakeFiles/spdlog_fold_sink.dir/src/main.cpp.o: \
  /usr/include/c++/11/bits/locale_facets.tcc \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
- /usr/include/c++/11/bits/istream.tcc \
- /usr/include/spdlog/sinks/base_sink.h /usr/include/spdlog/sinks/sink.h \
- /usr/include/spdlog/formatter.h
+ /usr/include/c++/11/bits/istream.tcc /usr/include/spdlog/formatter.h \
+ /usr/include/spdlog/pattern_formatter.h /usr/include/spdlog/details/os.h \
+ /usr/include/spdlog/sinks/ansicolor_sink.h \
+ /usr/include/spdlog/sinks/sink.h

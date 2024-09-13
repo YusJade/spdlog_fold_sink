@@ -221,9 +221,6 @@ spdlog_fold_sink_BINARY_DIR:STATIC=/home/yu/codefield/spdlog_fold_sink/build
 //Value Computed by CMake
 spdlog_fold_sink_IS_TOP_LEVEL:STATIC=ON
 
-//Dependencies for the target
-spdlog_fold_sink_LIB_DEPENDS:STATIC=general;spdlog::spdlog;
-
 //Value Computed by CMake
 spdlog_fold_sink_SOURCE_DIR:STATIC=/home/yu/codefield/spdlog_fold_sink
 

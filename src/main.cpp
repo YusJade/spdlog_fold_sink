@@ -1,14 +1,16 @@
 #include <memory>
 #include <mutex>
 
+#include <spdlog/details/console_globals.h>
 #include <spdlog/logger.h>
 #include <spdlog/spdlog.h>
 
 #include "fold_sink.h"
 
 int main() {
-  auto logger = std::make_shared<spdlog::logger>(
-      "my_logger", std::make_shared<fold_sink<std::mutex>>());
+  auto my_fold_sink = std::make_shared<
+      spdlog::sinks::fold_sink<spdlog::details::console_mutex>>();
+  auto logger = std::make_shared<spdlog::logger>("my_logger", my_fold_sink);
   spdlog::set_default_logger(logger);
 
   spdlog::info("This is a msg for A.");
